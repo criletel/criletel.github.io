@@ -52,4 +52,74 @@
         /* Equipo */
         .equipo-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .persona {
+            background: #eef2f6;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            color: #002a4e;
+        }
+
+        /* Footer */
+        footer {
+            background: #002a4e;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Plataforma Pública</h1>
+    <p>Consultoría, análisis organizacional y fortalecimiento institucional</p>
+</header>
+
+<section>
+    <h2>Quiénes Somos</h2>
+    <p>
+        Plataforma Pública es un equipo de profesionales especializado en políticas públicas,
+        análisis organizacional, evaluación de programas y fortalecimiento institucional.
+        Trabajamos con servicios públicos, gobiernos locales y organizaciones que buscan mejorar
+        su gestión y resultados.
+    </p>
+</section>
+
+<section>
+    <h2>Nuestro Equipo</h2>
+
+    <div class="equipo-grid">
+        <div class="persona">Cristian Letelier</div>
+        <div class="persona">Karla Álvarez</div>
+        <div class="persona">Pablo Torres</div>
+        <div class="persona">Fernando Dazarola</div>
+        <div class="persona">Daniela Díaz</div>
+    </div>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+    <p><strong>Teléfono:</strong> +56 9 8439 6370</p>
+    <p><strong>Correo:</strong> info@plataformapublica.cl</p>
+</section>
+
+<footer>
+    <p>© 2025 Plataforma Pública</p>
+    <p>Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
