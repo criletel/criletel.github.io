@@ -5,78 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plataforma Pública</title>
 
+    <!-- Nueva tipografía Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <style>
         body {
             margin: 0;
-            font-family: "Segoe UI", Arial, sans-serif;
-            background-color: #f5f6f7;
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
             color: #333;
         }
 
-        /* Encabezado */
         header {
-            background-color: #002a4e;
+            background: #002a4e;
+            padding: 40px 20px;
             color: white;
-            padding: 50px 20px;
             text-align: center;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 2.8rem;
-            font-weight: 600;
+        nav {
+            background: #014a7c;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
         }
 
-        header p {
-            margin-top: 10px;
-            font-size: 1.3rem;
-            opacity: 0.9;
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
         }
 
-        /* Secciones */
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         section {
-            max-width: 1000px;
-            margin: 50px auto;
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
             background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            margin-top: 20px;
+            border-radius: 10px;
         }
 
         h2 {
             color: #002a4e;
+        }
+
+        .equipo-item {
             margin-bottom: 20px;
-            font-weight: 600;
-        }
-
-        /* Equipo */
-        .equipo-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 25px;
-            margin-top: 20px;
-        }
-
-        .persona {
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 12px 18px;
             background: #eef2f6;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            font-weight: 600;
-            color: #002a4e;
+            border-radius: 8px;
         }
 
-        /* Footer */
         footer {
+            text-align: center;
+            padding: 20px;
             background: #002a4e;
             color: white;
-            padding: 30px;
-            text-align: center;
-            margin-top: 60px;
-        }
-
-        footer p {
-            margin: 5px 0;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -85,40 +77,78 @@
 
 <header>
     <h1>Plataforma Pública</h1>
-    <p>Consultoría, análisis organizacional y fortalecimiento institucional</p>
+    <p>Personas, habilidades, experiencia y proyectos al servicio del sector público</p>
 </header>
 
-<section>
-    <h2>Quiénes Somos</h2>
+<nav>
+    <a href="#que-es">Qué es</a>
+    <a href="#vision">Visión y Misión</a>
+    <a href="#que-hacemos">Qué hacemos</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="que-es">
+    <h2>Qué es Plataforma Pública</h2>
+    <p>Somos una Plataforma que integra personas, habilidades, experiencias y proyectos.</p>
+    <p>Somos especialistas en temas públicos.</p>
+    <p>Entendemos el sector público y la agenda pública.</p>
+    <p>Tenemos experiencia en gestión pública, diseño, implementación y evaluación de políticas públicas e intervención en discusiones regulatorias.</p>
+</section>
+
+<section id="vision">
+    <h2>Visión y Misión</h2>
+
+    <h3>Visión</h3>
+    <p>Buscamos aportar desde nuestra experiencia en el sector público en la profundización de la democracia y en la construcción de una sociedad más justa, inclusiva y cuyo desarrollo tenga a la base el cuidado del medio ambiente.</p>
+
+    <h3>Misión</h3>
+    <p>Somos una Plataforma que integra profesionales con abundante experiencia en el sector público que buscan generar proyectos de calidad, basados en nuestras habilidades y valores democráticos.</p>
+</section>
+
+<section id="que-hacemos">
+    <h2>Qué hacemos</h2>
+    <ul>
+        <li>Analizamos y evaluamos políticas públicas.</li>
+        <li>Asesoramos en diversos ámbitos de acuerdo a los requerimientos de nuestros clientes.</li>
+        <li>Desarrollamos propuestas con un sello innovador.</li>
+    </ul>
+
+    <h3>Cómo lo hacemos</h3>
     <p>
-        Plataforma Pública es un equipo de profesionales especializado en políticas públicas,
-        análisis organizacional, evaluación de programas y fortalecimiento institucional.
-        Trabajamos con servicios públicos, gobiernos locales y organizaciones que buscan mejorar
-        su gestión y resultados.
+        Desarrollamos diversos proyectos para el Sector Público: consultorías, asesorías, estudios cuantitativos y cualitativos.
+        Levantamos información mediante investigación y trabajo de campo.
+        Diseñamos y evaluamos políticas públicas con sólido soporte profesional.
     </p>
 </section>
 
-<section>
+<section id="equipo">
     <h2>Nuestro Equipo</h2>
 
-    <div class="equipo-grid">
-        <div class="persona">Cristian Letelier</div>
-        <div class="persona">Karla Álvarez</div>
-        <div class="persona">Pablo Torres</div>
-        <div class="persona">Fernando Dazarola</div>
-        <div class="persona">Daniela Díaz</div>
-    </div>
+    <p>Equipo profesional con experiencia en políticas públicas, análisis institucional y fortalecimiento organizacional.</p>
+
+    <!-- SOLO LAS PERSONAS QUE PEDISTE -->
+    <div class="equipo-item">Cristian Letelier</div>
+    <div class="equipo-item">Karla Álvarez</div>
+    <div class="equipo-item">Pablo Torres</div>
+    <div class="equipo-item">Fernando Dazarola</div>
+    <div class="equipo-item">Daniela Díaz</div>
 </section>
 
-<section>
+<section id="experiencia">
+    <h2>Nuestra Experiencia</h2>
+    <p>Se mantiene igual que en tu versión actual (no se modifica hasta que me digas).</p>
+</section>
+
+<section id="contacto">
     <h2>Contacto</h2>
     <p><strong>Teléfono:</strong> +56 9 8439 6370</p>
-    <p><strong>Correo:</strong> info@plataformapublica.cl</p>
+    <p><strong>Correo:</strong> contacto@plataformapublica.cl</p>
 </section>
 
 <footer>
-    <p>© 2025 Plataforma Pública</p>
-    <p>Todos los derechos reservados</p>
+    © 2025 Plataforma Pública — Todos los derechos reservados
 </footer>
 
 </body>
