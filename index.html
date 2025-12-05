@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plataforma Pública</title>
 
-    <!-- Nueva tipografía Inter -->
+    <!-- Nueva tipografía: Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <style>
@@ -52,15 +52,21 @@
 
         h2 {
             color: #002a4e;
+            margin-top: 0;
         }
 
         .equipo-item {
-            margin-bottom: 20px;
-            font-size: 1.1rem;
-            font-weight: 500;
-            padding: 12px 18px;
             background: #eef2f6;
+            padding: 20px;
             border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .equipo-item strong {
+            font-size: 1.2rem;
+            display: block;
+            margin-bottom: 6px;
+            color: #002a4e;
         }
 
         footer {
@@ -70,13 +76,29 @@
             color: white;
             margin-top: 40px;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        table th {
+            background: #e1e1e1;
+        }
     </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Plataforma Pública</h1>
+    <img src="logo_plataforma.jpg" alt="Plataforma Pública" style="height: 140px; margin-bottom: 15px;">
+    <h1 style="margin-top: 0;">Plataforma Pública</h1>
     <p>Personas, habilidades, experiencia y proyectos al servicio del sector público</p>
 </header>
 
@@ -89,6 +111,9 @@
     <a href="#contacto">Contacto</a>
 </nav>
 
+<!-- ============================
+        SECCIÓN QUÉ ES
+============================= -->
 <section id="que-es">
     <h2>Qué es Plataforma Pública</h2>
     <p>Somos una Plataforma que integra personas, habilidades, experiencias y proyectos.</p>
@@ -97,6 +122,9 @@
     <p>Tenemos experiencia en gestión pública, diseño, implementación y evaluación de políticas públicas e intervención en discusiones regulatorias.</p>
 </section>
 
+<!-- ============================
+        VISIÓN Y MISIÓN
+============================= -->
 <section id="vision">
     <h2>Visión y Misión</h2>
 
@@ -107,6 +135,9 @@
     <p>Somos una Plataforma que integra profesionales con abundante experiencia en el sector público que buscan generar proyectos de calidad, basados en nuestras habilidades y valores democráticos.</p>
 </section>
 
+<!-- ============================
+         QUÉ HACEMOS
+============================= -->
 <section id="que-hacemos">
     <h2>Qué hacemos</h2>
     <ul>
@@ -116,31 +147,145 @@
     </ul>
 
     <h3>Cómo lo hacemos</h3>
-    <p>
-        Desarrollamos diversos proyectos para el Sector Público: consultorías, asesorías, estudios cuantitativos y cualitativos.
-        Levantamos información mediante investigación y trabajo de campo.
-        Diseñamos y evaluamos políticas públicas con sólido soporte profesional.
-    </p>
+    <p>Desarrollamos diversos proyectos para el Sector Público: consultorías, asesorías, estudios cuantitativos y cualitativos. Levantamos información mediante investigación y trabajo de campo. Diseñamos y evaluamos políticas públicas con sólido soporte profesional.</p>
 </section>
 
+<!-- ============================
+            EQUIPO
+============================= -->
 <section id="equipo">
     <h2>Nuestro Equipo</h2>
 
-    <p>Equipo profesional con experiencia en políticas públicas, análisis institucional y fortalecimiento organizacional.</p>
+    <div class="equipo-item">
+        <strong>Cristián Letelier Gálvez</strong>
+        Abogado. Magíster en Gestión y Políticas Públicas por la Universidad de Chile y MPA por la London School of Economics. Consultor con más de 20 años de experiencia en asesorías e investigaciones para el sector público. Ha liderado equipos multidisciplinarios en estudios socio-legales por más de 10 años, y realizado numerosas consultorías para instituciones públicas, especialmente del sector justicia. Ha sido evaluador experto para DIPRES y el BID, además de profesor de derecho administrativo e investigador senior del Centro de Estudios de la Justicia de la Universidad de Chile. :contentReference[oaicite:1]{index=1}
+    </div>
 
-    <!-- SOLO LAS PERSONAS QUE PEDISTE -->
-    <div class="equipo-item">Cristian Letelier</div>
-    <div class="equipo-item">Karla Álvarez</div>
-    <div class="equipo-item">Pablo Torres</div>
-    <div class="equipo-item">Fernando Dazarola</div>
-    <div class="equipo-item">Daniela Díaz</div>
+    <div class="equipo-item">
+        <strong>Karla Álvarez Ramírez</strong>
+        Socióloga y psicóloga, con amplia experiencia en diseño, implementación y coordinación de investigación social. Ha trabajado en estudios de infancia, juventud y reinserción social, y posee formación especializada en trauma infantil, apego y metodologías cualitativas en niñez y adolescencia. :contentReference[oaicite:2]{index=2}
+    </div>
+
+    <div class="equipo-item">
+        <strong>Pablo Torres Díaz</strong>
+        Ingeniero Civil Industrial con más de 17 años de experiencia en gestión de personas, desarrollo organizacional y análisis de dotación en el sector público y privado. Ha liderado procesos de diseño de perfiles, estructuras organizacionales, selección, planificación de necesidades de personal y proyectos de certificación de competencias. Posee diplomados en Control de Gestión, Innovación y Formación Corporativa. :contentReference[oaicite:3]{index=3}
+    </div>
+
+    <div class="equipo-item">
+        <strong>Daniela Díaz Bórquez</strong>
+        Trabajadora Social y magíster en Sociología por la Pontificia Universidad Católica de Chile. Con más de 15 años de experiencia en diseño, gestión y evaluación de proyectos sociales en áreas de infancia, justicia juvenil y derechos humanos. Presidenta y cofundadora del Observatorio Niñez y Adolescencia. Académica de la UC y consultora para instituciones públicas como MINJU, Gendarmería e Integra. :contentReference[oaicite:4]{index=4}
+    </div>
+
+    <div class="equipo-item">
+        <strong>Fernando Dazarola Leichtle</strong>
+        Abogado de la Universidad de Chile y diplomado en Dirección y Gestión de Empresas. Con más de 20 años de experiencia en asuntos públicos, especializado en diseño y modernización institucional, reformas legislativas y asesoría a organismos públicos y privados. Ha participado en reformas estructurales en energía, tributación, justicia y seguridad social. :contentReference[oaicite:5]{index=5}
+    </div>
 </section>
 
+<!-- ============================
+        EXPERIENCIA
+============================= -->
 <section id="experiencia">
     <h2>Nuestra Experiencia</h2>
-    <p>Se mantiene igual que en tu versión actual (no se modifica hasta que me digas).</p>
+
+    <h3>Proyectos Terminados</h3>
+    <table>
+        <tr>
+            <th>Año</th>
+            <th>Proyecto</th>
+            <th>Descripción</th>
+            <th>Metodología</th>
+            <th>Cliente</th>
+        </tr>
+
+        <tr>
+            <td>2017–2018</td>
+            <td>Reglamentos y DFL para implementación nueva ley del consumidor</td>
+            <td>Elaboración de reglamentos y DFL mediante asesoría jurídica y análisis documental.</td>
+            <td>Encuestas y revisión de fuentes secundarias.</td>
+            <td>SERNAC</td>
+        </tr>
+
+        <tr>
+            <td>2018</td>
+            <td>Estudio de Localización y Caracterización IPS Biobío</td>
+            <td>Identificar potencial oferta y demanda de servicios en la red de atención del IPS.</td>
+            <td>Estudio exploratorio y análisis documental.</td>
+            <td>IPS</td>
+        </tr>
+
+        <tr>
+            <td>2019</td>
+            <td>Fortalecimiento Modelo de Intervención Especializado</td>
+            <td>Diseño participativo del nuevo Servicio de Reinserción Juvenil.</td>
+            <td>Entrevistas, grupos focales y panel de expertos.</td>
+            <td>MINJU</td>
+        </tr>
+
+        <tr>
+            <td>2019</td>
+            <td>Diseño Mecanismo de Monitoreo Ley 21.057</td>
+            <td>Diseño de indicadores y matriz lógica para el sistema de entrevista videograbada.</td>
+            <td>Levantamiento de procesos y entrevistas.</td>
+            <td>MINJU</td>
+        </tr>
+
+        <tr>
+            <td>2020</td>
+            <td>Manual de Lenguaje No Sexista</td>
+            <td>Elaboración del manual teórico y empírico para el Poder Judicial.</td>
+            <td>Entrevistas y análisis documental.</td>
+            <td>Corte Suprema</td>
+        </tr>
+
+        <tr>
+            <td>2021</td>
+            <td>Consultoría Gestión Administrativa CFA</td>
+            <td>Evaluación y propuesta de estructura administrativa autónoma.</td>
+            <td>Levantamiento de procesos y revisión comparada.</td>
+            <td>CFA</td>
+        </tr>
+    </table>
+
+    <h3>Proyectos en Ejecución</h3>
+    <table>
+        <tr>
+            <th>Año</th>
+            <th>Proyecto</th>
+            <th>Descripción</th>
+            <th>Metodología</th>
+            <th>Cliente</th>
+        </tr>
+
+        <tr>
+            <td>2020–2021</td>
+            <td>Informe Técnico para apoyo al proceso penal</td>
+            <td>Consolidación y pilotaje de herramienta técnica en 5 regiones.</td>
+            <td>Entrevistas, revisión documental y supervisión de pilotaje.</td>
+            <td>BID / MINJU</td>
+        </tr>
+
+        <tr>
+            <td>2021</td>
+            <td>Evaluación anual Ley 21.057</td>
+            <td>Segundo año de implementación del sistema de entrevistas videograbadas.</td>
+            <td>Análisis documental, procesos y datos cualitativos y cuantitativos.</td>
+            <td>Subsecretaría de Justicia</td>
+        </tr>
+
+        <tr>
+            <td>2021</td>
+            <td>Metodologías de participación de NNA</td>
+            <td>Estrategia metodológica para levantar percepciones de niños, niñas y adolescentes.</td>
+            <td>Entrevistas, panel de expertos, piloto metodológico.</td>
+            <td>Subsecretaría de Justicia</td>
+        </tr>
+    </table>
 </section>
 
+<!-- ============================
+        CONTACTO
+============================= -->
 <section id="contacto">
     <h2>Contacto</h2>
     <p><strong>Teléfono:</strong> +56 9 8439 6370</p>
